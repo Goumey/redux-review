@@ -1,8 +1,11 @@
-const initialState = {
-  title: "",
-  content: "",
-  id: 1,
-};
+import { GET_POSTS } from "../actions/post.action";
+const initialState = [];
 export default function postReducer(state = initialState, action) {
-  return state;
+  switch (action.type) {
+    case GET_POSTS:
+      return action.playload;
+
+    default:
+      return state;
+  }
 }

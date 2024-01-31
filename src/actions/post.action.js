@@ -1,4 +1,4 @@
-const GET_POST = "GET_POST";
+export const GET_POSTS = "GET_POSTS";
 export const getPost = () => {
   return (dispatch) => {
     fetch("http://localhost:3000/posts")
@@ -7,6 +7,7 @@ export const getPost = () => {
       })
       .then((data) => {
         console.log(data);
+        return dispatch({ type: GET_POSTS, playload: data });
       });
   };
 };
