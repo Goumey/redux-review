@@ -1,36 +1,52 @@
 {
-    "posts": [
-      {
-        "title": "Lorem ipsum dolor sit amet",
-        "author": "Patrice",
-        "img":"https://picsum.photos/200?random=1",
-        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
-        "likes": 27,
-        "id": "1"
-      },
-      {
-        "title": "Lorem ipsum dolor sit amet dolor sit amet",
-        "author": "Samia",
-        "img":"https://picsum.photos/200?random",
-        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
-        "likes": 16,
-        "id": "2"
-      },
-      {
-        "title": "Lorem ipsum dolor",
-        "author": "Denis",
-         "img":"https://picsum.photos/200?random=3",
-        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti!Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
-        "likes": 107,
-        "id": "3"
-      }
-    ],
-    "user": [
-      {
-        "pseudo": "user42",
-        "likes": 0,
-        "age": 30,
-        "id": 1
-      }
-    ]
-  }
+  "posts": [
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "author": "Patrice",
+      "img": "https://picsum.photos/200?random=1",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
+      "likes": 27,
+      "id": "1"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet dolor sit amet",
+      "author": "Samia",
+      "img": "https://picsum.photos/200?random",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
+      "likes": 16,
+      "id": "2"
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "author": "Denis",
+      "img": "https://picsum.photos/200?random=j",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti!Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
+      "likes": 107,
+      "id": "3"
+    },
+    {
+      "id": "6c90",
+      "title": "un nouveau poste",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet ",
+      "img": "https://picsum.photos/200?random=2173.8006144532114",
+      "author": "Hatake Kakashi",
+      "likes": 0
+    },
+    {
+      "id": "5a08",
+      "title": "un second poste",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet ",
+      "img": "https://picsum.photos/200?random=213.8004532114",
+      "author": "Hatake Kakashi",
+      "likes": 0
+    }
+  ],
+  "user": [
+    {
+      "pseudo": "Hatake Kakashi",
+      "likes": 0,
+      "age": 30,
+      "id": "1"
+    }
+  ]
+}

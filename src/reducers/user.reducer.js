@@ -1,9 +1,12 @@
-const initialState = {
-  pseudo: "Hatake",
-  likes: 0,
-  age: 30,
-  id: 1,
-};
+import { GET_USERS } from "../actions/user.action";
+
+const initialState = [];
 export default function userReducer(state = initialState, action) {
-  return state;
+  switch (action.type) {
+    case GET_USERS:
+      return action.playload;
+
+    default:
+      return state;
+  }
 }
