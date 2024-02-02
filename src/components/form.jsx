@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addPost } from "../actions/post.action";
+import { addPost, getPost } from "../actions/post.action";
 
 const Form = () => {
   const user = useSelector((state) => state.userReducer);
@@ -20,6 +20,8 @@ const Form = () => {
     e.preventDefault();
 
     dispatch(addPost(formData));
+    dispatch(getPost());
+    e.target.reset();
   };
 
   return (

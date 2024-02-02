@@ -6,6 +6,11 @@ import { useSelector } from "react-redux";
 const Post = ({ post }) => {
   const [toggleEdit, setToggleEdit] = useState(false);
   const user = useSelector((state) => state.userReducer);
+  const [content, setContent] = useState();
+  const handleUpdate = (e) => {
+    e.preventDefault();
+    console.log(content);
+  };
   return (
     <div className="border shadow-md m-2 w-full  p-4">
       <div className="flex justify-between">
@@ -32,7 +37,7 @@ const Post = ({ post }) => {
       </div>
       <div className="content">
         {toggleEdit == true ? (
-          <form>
+          <form onSubmit={handleUpdate}>
             <textarea
               name="-"
               id=""
@@ -40,8 +45,13 @@ const Post = ({ post }) => {
               placeholder="Post content"
               className="border border-black p-2 my-3 w-full"
               defaultValue={post.content}
+              autoFocus={true}
+              onChange={(e) => setContent(e.target.value)}
             />
-            <button className="bg-green-500 text-white p-2 w-64 rounded">
+            <button
+              className="bg-green-500 text-white p-2 w-64 rounded"
+              type="submit"
+            >
               Modifier
             </button>
           </form>
